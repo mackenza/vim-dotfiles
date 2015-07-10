@@ -30,8 +30,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax enable
-colorscheme molokai
-
+colorscheme blackboard
+set number
 set list listchars=tab:\›\ ,trail:\-,extends:\>,precedes:\<
 
 set wildmode=longest,list,full
